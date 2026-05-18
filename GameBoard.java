@@ -18,7 +18,7 @@ public class GameBoard {
             if(!color.equals(board[targetRow][i].getColor())){
                 same = false;
             }
-            points = board[targetRow][i].getPoints();
+            points += board[targetRow][i].getPoints();
         }
         if(same){
             points *= 2;
