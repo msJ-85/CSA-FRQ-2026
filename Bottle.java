@@ -1,7 +1,7 @@
 public class Bottle{
 
-    double capacity;
-    double amt;
+    private double capacity;
+    private double amt;
     
     public Bottle(double amount){
         capacity = amount;
